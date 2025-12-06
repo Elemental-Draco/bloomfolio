@@ -95,12 +95,12 @@ export interface SiteConfig {
  * Update these values to customize your portfolio
  */
 export const siteConfig: SiteConfig = {
-  name: "🌻 Bloomfolio",
-  title: "Astro Portfolio Template built with 🌼 DaisyUI",
+  name: "Jadias Washington",
+  title: "A web developer with a passion for solving complex problems",
   description:
-    "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",
-  avatar: "../assets/bloomfolio.png",
-  location: "🇧🇷 Brazil",
+    "Hi, I'm Jadias Washington, a web developer studying at Arizona State University, on track to graduate in December 2025. I'm actively seeking front end/full stack positions through then, and have already built numerous projects to demonstrate proficiency across React, JavaScript, TypeScript, Python, and more.",
+  avatar: "public/avatar.png",
+  location: "Georgia, United States",
   email: "hello@example.com",
   socialLinks: {
     github: "https://github.com/lauroguedes",

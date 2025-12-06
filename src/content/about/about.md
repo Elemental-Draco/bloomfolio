@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-photo: "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Destiny&scale=90&backgroundColor=763900,9e5622,ecad80,f2d3b1,c0aede,b6e3f4"
+photo: "images/smaller-photo.jpg"
 ---
 
-I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With experience in **modern frameworks and technologies**, I love turning ideas into reality through code. When I'm not coding, you can find me **exploring new technologies**, contributing to open source, or enjoying a good cup of coffee.
+If you can pry me away from VS Code, you might find me studying up on my Japanese, yelling at a video game screen, binge watching anime, lifting at the gym, or experimenting with new recipes in the kitchen. I thrive on tackling fresh challenges and solving real world problems, and I can't help but to involve that in my hobbies as well.
