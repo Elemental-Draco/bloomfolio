@@ -1,10 +1,10 @@
 ---
-title: "University of AI"
-subtitle: "Bachelor of Information Systems"
+title: "Arizona State University"
+subtitle: "Bachelor of Graphic Information Technology"
 logo: "https://api.dicebear.com/9.x/icons/svg?seed=Sophia"
-startDate: "2015-09-01"
-endDate: "2019-05-30"
-link: "https://university.edu"
+startDate: "2023-06-01"
+endDate: "2025-12-18"
+link: "https://www.asu.edu/"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+Focused on a combination of full stack web development alongside graphic industry work, including print, digital media, web design, illustration and animations.
