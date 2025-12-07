@@ -1,114 +1,77 @@
 ---
-title: "Mary UI Laravel Starter Kit"
-description: "A contemporary, production-ready Laravel starter kit with integrated Livewire Volt and Mary UI components. Designed to expedite web application development with pre-built authentication, user administration, and developer-friendly tooling."
-image: "https://api.dicebear.com/9.x/glass/svg?seed=Alexander"
-startDate: "2024-12-07"
-skills: ["Laravel", "Livewire", "Mary UI", "DaisyUI", "Tailwind CSS", "Pest"]
-sourceLink: "https://github.com/lauroguedes/mary-ui-starter-kit"
-demoLink: "https://github.com/lauroguedes/mary-ui-starter-kit"
+title: "Pokemon Type Effectiveness Calculator"
+description: "Pokemon tends to attract a younger audience due to the simplicity of the story and mechanics: gather a team of 6 magical creatures to battle your way through the region and become champion. I was inspired to build a simple, quick, and easy web app that would allow even children to be able to understand how to use it"
+image: "./pokemon-calc.png"
+startDate: "2025-09-03"
+endDate: "2025-10-03"
+skills: ["TypeScript", "JavaScript", "CSS3", "HTML5", "Vite"]
+# sourceLink: "https://github.com/lauroguedes/mary-ui-starter-kit"
+demoLink: "https://elemental-draco.github.io/pokemon-type-calc/"
 ---
 
-## Project Overview
+## About Pokémon Damage Type Calculator
 
-Mary UI Laravel Starter Kit is a comprehensive, production-ready foundation for building modern web applications. It combines the robustness of Laravel 12.x with the elegance of Mary UI and the reactivity of Livewire Volt, providing developers with everything they need to kickstart their next project.
+The Pokémon Damage Type Calculator is an interactive web tool built to help players quickly determine type effectiveness for any attacking and defending Pokémon type combination. Designed as a clean, lightweight, and educational project, it provides instant feedback using accurate multiplier data and an intuitive user interface.
 
-### Repository Stats
+This project showcases strong front-end engineering fundamentals, including structured data modeling in JavaScript, dynamic rendering, and clean interaction patterns.
 
-[![Laravel](https://img.shields.io/badge/Laravel-12.x-red?style=flat&logo=laravel)](https://laravel.com) [![Livewire](https://img.shields.io/badge/Livewire-3.x-purple?style=flat)](https://livewire.laravel.com)
-[![Mary UI](https://img.shields.io/badge/Mary_UI-2.x-blue?style=flat)](https://mary-ui.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE)
---
-[![Packagist Version](https://img.shields.io/packagist/v/lauroguedes/mary-ui-starter-kit?style=flat)](https://packagist.org/packages/lauroguedes/mary-ui-starter-kit)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/lauroguedes/mary-ui-starter-kit?style=flat)](https://packagist.org/packages/lauroguedes/mary-ui-starter-kit)
 
-## Core Technologies
 
-- **Backend**: Laravel 12.x (PHP 8.2+)
-- **Frontend Framework**: Livewire 3.x with Volt
-- **UI Components**: [Mary UI](https://mary-ui.com)
-- **Styling**: Tailwind CSS 4.x + DaisyUI
-- **Icons**: Blade Hero and Font Awesome
-- **Build Tool**: Vite
-- **Database**: SQLite (default, easily switchable)
-- **Testing**: Pest framework
-- **Code Quality**: Pint, Rector
+## Core Features
 
-## Authentication & User Management
+### Accurate Type Matchup Calculations
+- **Real Type Multipliers**: Based on the official Pokémon type chart  
+- **Instant Results**: Automatically calculates damage multipliers on selection  
+- **Dual-Type Support**: Handles all single- and dual-type matchups  
+- **Clear Output**: Displays effectiveness phrased as *Super Effective*, *Not Very Effective*, *Immune*, or standard damage
 
-### Complete Auth System
-- Login, registration, and password reset flows
-- Email verification capabilities
-- User profile administration with avatar uploads
-- Session management
+### Interactive UI
+- **Two Dropdown Inputs**: Choose any attacker type and one or two defender types  
+- **Auto-Updated Results**: No page reloads — updates with every change  
+- **Color-Coded Feedback**: Visual clarity for different damage outcomes (optional design flair)  
+- **Clean Layout**: Simple, readable interface for quick reference
 
-### User Administration Dashboard
-- Comprehensive CRUD operations for user management
-- User status tracking (Active, Inactive, Suspended)
-- Advanced search and filtering
-- Bulk operations support
+### Structured Data Modeling
+- **Type Objects**: Organized TypeScript data structure storing each type’s weaknesses, resistances, and immunities  
+- **Reusable Logic**: A single calculation engine handles all combinations  
+- **Modular Functions**: Separation of input handling, calculation, and rendering for maintainable code
 
-### OAuth Integration
-- **Google OAuth** authentication built-in
-- Social account connection to existing profiles
-- Extensible provider architecture for adding more OAuth providers
 
-### Roles & Permissions
-Powered by **Spatie Laravel Permission** package for robust role-based access control:
-- Flexible permission system
-- Role assignment and management
-- Guard-based permissions
-- Easy integration with your application logic
 
-## Developer Experience
+## Technical Architecture
 
-### Testing
-- **80+ comprehensive tests** using Pest framework
-- Unit, feature, and browser tests included
-- Pre-configured test database setup
-- Test coverage for critical user flows
+### Frontend Stack
+Built entirely on lightweight, accessible technologies:
+- **HTML5 & CSS3** for structure and styling  
+- **JavaScript (ES6)** for all logic and interaction  
+- **No Frameworks Required** — fast, dependency-free implementation  
 
-### Code Quality Tools
-- **Pint**: Laravel's opinionated PHP code formatter
-- **Rector**: Automated code refactoring and upgrades
-- **LaraDumps**: Enhanced debugging and profiling
-- **Laravel Pail**: Real-time log tailing in the terminal
+### Core Implementation Highlights
+- **Custom Type Data Model** using plain JavaScript objects  
+- **Dynamic DOM Rendering** for result outputs  
+- **Switch-Based or Map-Based Logic** for combining multipliers  
+- **Mathematical Accuracy** through sequential multiplier evaluation  
+- **Scalable Design** allowing easy additions (e.g., STAB, weather, abilities)
 
-### Development Workflow
-Quick setup with one command:
-```bash
-laravel new my-app --using=lauroguedes/mary-ui-starter-kit
-```
 
-Or clone and install:
-```bash
-composer install
-npm install
-php artisan migrate --seed
-```
+## User Experience
 
-Start development with hot reload:
-```bash
-composer dev
-```
+- Minimalist design focused on clarity and speed  
+- Instant feedback with no clutter or confusing UI elements  
+- Clear descriptions for effectiveness categories  
+- Optional color coding for accessibility and faster scanning  
+- Fully responsive layout suitable for desktop and mobile
 
-This launches the development server, queue worker, log monitor, and Vite with hot module replacement - all concurrently!
 
-## Production Ready
 
-- Optimized asset bundling with Vite
-- Database migrations and seeders included
-- Email templates with Mailpit for local testing
-- Environment-based configuration
-- Security best practices implemented out of the box
+## Purpose & Impact
 
-## Perfect For
+The Pokémon Damage Type Calculator serves as a practical, educational reference for players while demonstrating the developer’s grasp of:
 
-- SaaS applications requiring rapid development
-- Internal business tools and dashboards
-- Client projects with tight deadlines
-- Learning Laravel best practices and modern patterns
-- Prototyping and MVPs
+- Data organization and modeling  
+- Problem decomposition and modular architecture  
+- Interactive UI building  
+- Mathematical logic and conditional evaluation  
+- Clean, readable JavaScript code  
 
-## Open Source
-
-This project is open source under the MIT License and welcomes contributions from the community. Visit the GitHub repository to report issues, suggest features, or contribute code.
+The project highlights the ability to transform a complex ruleset into an intuitive, reliable tool — making it an excellent portfolio piece for showcasing applied logic, user-focused design, and clean engineering skills.
