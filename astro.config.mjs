@@ -11,5 +11,5 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   site: "https://elemental-draco.github.io",
-  base: "/bloomfolio"
+  base: "/jadias-portfolio/"
 });
